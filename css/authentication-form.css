@@ -12,6 +12,10 @@ body {
 
 .content {
   padding: 30px;
+  border-spacing: 10rem;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
 }
 
 h2 {
@@ -27,6 +31,28 @@ p {
 form {
   border: 1px solid #a9a9a9;
   padding: 20px;
+}
+
+.form-input-control {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+  width: 100%;
+  gap: 6px;
+}
+
+.form-group-horizontal-control {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.form-submit-control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-top: 30px;
 }
 
 .subtext {
@@ -81,5 +107,9 @@ input[type="submit"]:hover {
 }
 
 .form select {
+  height: 30px;
+}
+
+#city, #state {
   height: 30px;
 }
