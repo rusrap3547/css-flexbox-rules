@@ -36,8 +36,6 @@ form {
 .form-input-control {
   display: flex;
   flex-direction: column;
-  padding-bottom: 30px;
-  width: 100%;
   gap: 6px;
 }
 
@@ -49,10 +47,9 @@ form {
 
 .form-submit-control {
   display: flex;
+  gap: 30px;
   justify-content: center;
   align-items: center;
-  gap: 30px;
-  padding-top: 30px;
 }
 
 .subtext {
@@ -62,7 +59,10 @@ form {
 
 #sign-in,
 #sign-up {
-  width: 100%;
+    display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border: 1px solid #a9a9a9;
 }
 
 a {
@@ -74,10 +74,13 @@ label {
   font-weight: bold;
 }
 
-input {
+input, select {
   width: 100%;
   height: 30px;
   padding: 5px;
+  background-color: #fff;
+  border: 1px solid #777777;
+  border-radius: 2px;
 }
 
 input[type="checkbox"],
