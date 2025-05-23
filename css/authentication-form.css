@@ -63,6 +63,13 @@ form {
   flex-direction: column;
   gap: 30px;
   border: 1px solid #a9a9a9;
+  width: 100%;
+}
+
+#sign-in-form, #sign-up-form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 a {
